@@ -9,16 +9,15 @@
 
 #Voyager.ITEM_STAT_CODE
 #ITEM_STAT_ID,          ITEM_STAT_CODE,      #ITEM_STAT_CODE_DESC
-MON: '' # Monografia
-'ÄÄN': '' # Äänite
-MBA: '' # MBA koulutusohjelma
-CAM: '' # Kamerat
-KU: '' #  Kurssikirja / AMK
-LAH: '' # Lahjoitus
-'2.': '' #  HELMI
-LAU: '' # Laurea-kirjaston hankinta
-OPE: '' # Laurean opettajahankinnat
-PRV: '' # HH Porvoo
-LTL: '' # Laurea thesis tai lahja
+CAM: '' # Kamerat, ei siirretä 
+KU: '' #  Kurssikirja / AMK, ei siirretä 
+LAH: '' # Lahjoitus, ei siirretä
+'2.': '' #  HELMI, ei siirretä
+LAU: LAU # Laurea-kirjaston hankinta
+OPE: '' # Laurean opettajahankinnat, ei siirretä
+PRV: HH # HH Porvoo
+LTL: LAU # Laurea thesis tai lahja
+HH: HH # Haaga-Helia
+SUO: SUO # Suomen Urheiluopisto
 
 _DEFAULT_: warning()
